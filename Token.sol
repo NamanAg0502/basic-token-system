@@ -15,7 +15,7 @@ contract Token {
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
     // Constructor function that sets the name, symbol, totalSupply and owner.
-    constructor(string memory _name, string memory _symbol, uint256 _totalSupply, address _owner) public {
+    constructor(string memory _name, string memory _symbol, uint256 _totalSupply, address _owner) {
         name = _name;
         symbol = _symbol;
         totalSupply = _totalSupply;

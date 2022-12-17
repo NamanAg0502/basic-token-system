@@ -1,11 +1,9 @@
 # Basic Token System
-- Install the Ethereum wallet and browser extension MetaMask (https://metamask.io/).
-- Connect MetaMask to a test network, such as Rinkeby (https://www.rinkeby.io/).
-- Obtain some test Ether by following the instructions on the Rinkeby website.
-- Go to the Remix online Solidity compiler and debugger (https://remix.ethereum.org/).
-- In Remix, create a new file and copy the contract code into it. Save the file with a .sol extension (e.g. Token.sol).
+- We will use metamask as Ethereum wallet(as it is pretty much standard)
+- Connect MetaMask to a test network, such as Goerli and add some ether from one of the many faucet.
+- Go to (https://remix.ethereum.org/) and create a new file name Token.sol.
+- Copy Paste the code from above file.
 - In the "Compile" tab, select the Token.sol file and click the "Compile" button.
-- In the "Run" tab, select the "Injected Web3" environment and your test network.
-- Click the "Create" button to deploy the contract to the test network.
-- Follow the prompts in MetaMask to confirm the contract deployment transaction.
-- Once the transaction is mined
+- In the "Run" tab, select the "Injected Provider - Metamask" environment and your test network.
+- Click the "Deploy" button to deploy the contract to the test network after putting values asked(name, symbol, owner ...).
+- Contract will deploy and will be shown in Deployed Contract section below.
