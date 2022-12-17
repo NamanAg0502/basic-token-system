@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Unlicensed
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.17;
 
 // This is the contract for a basic token system
 contract Token {
