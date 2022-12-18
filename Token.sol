@@ -37,6 +37,6 @@ contract Token {
         // Decrease the balance of the sender and increase the balance of the recipient
         balanceOf[msg.sender] -= _value;
         balanceOf[_to] += _value;
-        emit Transfer(msg.sender, to, _value);
+        emit Transfer(msg.sender, _to, _value);
     }
 }
